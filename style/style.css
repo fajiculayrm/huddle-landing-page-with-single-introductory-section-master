@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(257deg, 40%, 49%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 48rem) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    background-size: 100% 100%;
+  }
+}
+
+header {
+  width: 90%;
+  padding: 2rem 0;
+  font-family: "Open Sans", sans-serif;
+}
+@media (min-width: 90rem) {
+  header {
+    padding: 3rem 0;
+  }
+}
+
+header img {
+  width: 40%;
+}
+@media (min-width: 48rem) {
+  header img {
+    width: 10%;
+  }
+}
+
+main {
+  color: #fff;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 90rem) {
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+main img {
+  width: 100%;
+}
+@media (min-width: 48rem) {
+  main img {
+    width: 50%;
+  }
+}
+
+.info {
+  text-align: center;
+}
+@media (min-width: 90rem) {
+  .info {
+    padding: 1rem 2rem;
+    text-align: left;
+    width: 50%;
+  }
+}
+
+main h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+@media (min-width: 48rem) {
+  main h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+}
+
+main p {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+@media (min-width: 48rem) {
+  main p {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+}
+
+main button {
+  margin-top: 1rem;
+  border: 0;
+  padding: 1rem 5rem;
+  border-radius: 4rem;
+  color: hsl(257deg, 40%, 49%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+main button:hover {
+  color: #fff;
+  background-color: hsl(300deg, 69%, 71%);
+}
+@media (min-width: 48rem) {
+  main button {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+}
+
+footer {
+  width: 90%;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  footer {
+    text-align: right;
+  }
+}
+
+i {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.5em;
+  color: #fff;
+  margin: 0.5rem;
+  border: 0.1rem solid #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+i:hover {
+  color: hsl(300deg, 69%, 71%);
+  border: 1px solid hsl(300deg, 69%, 71%);
+}
+
+.attribution {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
