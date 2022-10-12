@@ -29,7 +29,7 @@ header {
 }
 @media (min-width: 90rem) {
   header {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 }
 
@@ -52,6 +52,7 @@ main {
 }
 @media (min-width: 90rem) {
   main {
+    margin-top: 2rem;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -102,6 +103,7 @@ main p {
 }
 
 main button {
+  background-color: #fff;
   margin-top: 1rem;
   border: 0;
   padding: 1rem 5rem;
